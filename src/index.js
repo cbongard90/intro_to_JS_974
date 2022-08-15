@@ -46,3 +46,22 @@ if (age >= 18) {
 const raining = true;
 const accessory = (raining ? "umbrella" : "sunglasses");
 // => "umbrella"
+
+// objects
+
+const student = {
+  firstName: "Boris",
+  lastName: "Paillard"
+};
+
+console.log(typeof student);
+console.log(student);
+
+console.log(student.firstName);
+// => "Boris"
+console.log(student['firstName']); // Another way
+// => "Boris"
+
+student.firstName = "Romain";
+console.log(student.firstName);
+// => "Romain"
