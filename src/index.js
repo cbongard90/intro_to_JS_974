@@ -42,3 +42,7 @@ if (age >= 18) {
 } else {
   console.log("You can't vote");
 }
+
+const raining = true;
+const accessory = (raining ? "umbrella" : "sunglasses");
+// => "umbrella"
