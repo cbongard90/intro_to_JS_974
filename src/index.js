@@ -65,3 +65,19 @@ console.log(student['firstName']); // Another way
 student.firstName = "Romain";
 console.log(student.firstName);
 // => "Romain"
+
+// Old Method
+function square(x) {
+  return x * x;
+}
+
+console.log(square(10));
+console.log(square(15));
+console.log(square(1024));
+
+// arrow function
+const square2 = (x) => {
+  return x * x;
+};
+
+const square3 = x => x * x;
